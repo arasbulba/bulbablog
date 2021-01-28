@@ -31,7 +31,18 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'guard', '~> 2.14', '>= 2.14.1'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 end
+
+#better errors
+gem 'better_errors', '~> 2.9.1'
+
+#bulba CSS
+gem 'bulma-rails', '~> 0.6.1'
+
+#Simple information
+ gem 'simple_form', '~> 4.0.1'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
